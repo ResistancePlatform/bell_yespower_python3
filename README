@@ -1,11 +1,7 @@
-コンパイル方法
+# Resistance Yespower
 
-git clone https://github.com/bellcoin-electrum/bell_yespower_python3
+git clone https://github.com/ResistancePlatform/resistance_yespower_python3
 
-cd bell_yespower_python3
+cd resistance_yespower_python3
 
 sudo python3 setup.py install
-
-使用方法
-
-import bell_yespower
