@@ -1,7 +1,8 @@
 from setuptools import setup, Extension
 
-yespower_module = Extension('resistance_yespower',
-                            sources = ['yespower-module.c',
+resistance_yespower_module = Extension('resistance_yespower',
+                            sources = ['yespower-platform.c',
+                                       'yespower-opt.c',
                                        'yespower.c',
                                        'yespower-opt.c',
                                        'sha256.c'
