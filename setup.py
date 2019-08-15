@@ -3,8 +3,7 @@ from setuptools import setup, Extension
 resistance_yespower_module = Extension('resistance_yespower',
                             sources = ['yespower-platform.c',
                                        'yespower-opt.c',
-                                       'yespower.c',
-                                       'yespower-opt.c',
+                                       'yespower-ref.c',
                                        'sha256.c'
                                        ],
                             extra_compile_args=['-O2', '-funroll-loops', '-fomit-frame-pointer'],

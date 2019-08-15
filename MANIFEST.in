@@ -7,15 +7,3 @@ include yespower-opt.c
 include yespower-ref.c
 include yespower-platform.c
 include yespower.h
-
-insecure_memzero.h
-sha256.h
-yespower-platform.c
-sysendian.h
-yespower-ref.c
-yespower.c
-sha256.c
-yespower-opt.c
-yespower.h
-benchmark.c
-tests.c
